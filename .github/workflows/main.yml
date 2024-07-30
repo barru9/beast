@@ -1,0 +1,22 @@
+name: Windows - LiteManager
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Banana shru....
+    runs-on: windows-latest
+    timeout-minutes: 99999999999999999999999999999999999999
+    
+    steps:
+      - name: Downloading Kar raha hu be
+        run: |
+          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
+
+      - name: LiteManager connection hu
+        run: cmd /c show.bat
+
+      - name: Time dekhle
+        run: cmd /c loop.bat
